@@ -16,7 +16,7 @@ REM echo      |   __   | |   __|  |  |     |  |     |  |  |  |
 REM echo      |  |  |  | |  |____ |  `----.|  `----.|  `--'  | 
 REM echo      |__|  |__| |_______||_______||_______| \______/  
 REM echo.
-REM echo.	cringy text and lil'hackerman brought to you by: Blake Sando
+REM echo.
 REM echo.
 REM echo                 /^^^^^^^^^^^^^^^^^\      
 REM echo                |   [ O ]    [ O ]  |     
