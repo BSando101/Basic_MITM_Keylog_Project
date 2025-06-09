@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # ------- CONFIGURATION ---------
-KALI_IP=""
-TARGET_IP=""
+KALI_IP="" # Local IP
+TARGET_IP="" # LocaL IP
 ROUTER_IP="" # Default Gateway
-INTERFACE="wlan0" # use correct labing depending on wireless or wired
+INTERFACE="" # use correct labing depending on wireless or wired
 FAKE_SITE_DIR=""  # Path where your fake index.html and payload live
 # --------------------------------
 
