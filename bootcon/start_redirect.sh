@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # ------- CONFIGURATION ---------
-KALI_IP="192.168.0.4"
-TARGET_IP="192.168.0.9"
-ROUTER_IP="192.168.0.1" # Default Gateway
+KALI_IP=""
+TARGET_IP=""
+ROUTER_IP="" # Default Gateway
 INTERFACE="wlan0" # use correct labing depending on wireless or wired
-FAKE_SITE_DIR="/home/nilla/bootcon/fake_site"  # Path where your fake index.html and payload live
+FAKE_SITE_DIR=""  # Path where your fake index.html and payload live
 # --------------------------------
 
 echo "[+] Starting MITM redirection..."
